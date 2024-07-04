@@ -2,6 +2,9 @@ import tkinter as tk
 from threading import Thread
 import time
 
+def test_example_function():
+    assert True
+
 class CountdownTimer:
     def __init__(self, root):
         self.root = root
