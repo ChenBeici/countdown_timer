@@ -1,4 +1,4 @@
-name: Pylint and Autopep8
+name: Pylint
 
 on:
   push:
