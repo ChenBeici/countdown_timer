@@ -1,0 +1,11 @@
+# 强制所有文件使用 LF 换行符
+* text=auto eol=lf
+
+# 强制特定文件使用 LF 换行符
+*.yml text eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+
+# 保持二进制文件的原始换行符
+*.jpg binary
+*.png binary

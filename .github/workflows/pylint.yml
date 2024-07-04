@@ -2,12 +2,8 @@ name: Pylint
 
 on:
   push:
-    paths:
-      - 'countdown_timer/**'
     branches: [ "main" ]
   pull_request:
-    paths:
-      - 'countdown_timer/**'
     branches: [ "main" ]
 
 jobs:
