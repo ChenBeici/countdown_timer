@@ -34,7 +34,7 @@ jobs:
 
     - name: Run Pytest and Generate Coverage Report
       run: |
-        pytest --cov=countdown_timer --cov-report=xml --cov-report=html
+        pytest --cov=countdown_timer --cov-report=xml --cov-report=html tests/
 
     - name: Upload Coverage to CodeClimate
       env:
